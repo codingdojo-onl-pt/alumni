@@ -30,6 +30,9 @@ a {
   font-size: 1.2em;
   color: #0000ff;
 }
+a:hover {
+  color: #ffa500;
+}
 * {
   font-family: "Hermit", "Consolas", "Source Code Pro", monospace;
 }
@@ -39,7 +42,7 @@ html {
   background: #252323 url("../images/dojo-shinto-lazer.png") center center no-repeat;
 }
 i {
-  color: #ffa500;
+  color: #00fa00;
 }
 body {
   display: flex;
@@ -63,7 +66,7 @@ body .row .column {
   min-width: 40%;
   background-color: #a8a8a83a;
   margin: 1em;
-  border: 3px solid #00fa00;
+  border: 3px solid #ffa500;
   justify-content: flex-start;
   padding: 0.2em;
 }
@@ -90,7 +93,7 @@ body .alt-column {
   justify-content: center;
   align-items: center;
   background-color: #a8a8a83a;
-  border: 3px solid #00fa00;
+  border: 3px solid #ffa500;
 }
 body .alt-column .alt-row {
   display: flex;
